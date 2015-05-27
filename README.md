@@ -16,14 +16,21 @@ This will produce a starter.war file in the *target* directory which can be plac
 
     mvn install
 
-Database
---------
+Install Tsugi
+-------------
 
-This is expecting that PHP Tsugi already is running and its database is on localhost:8889
-using the default account, password, and database name and that the tables already exist.
-If you want to change this, edit the file
+Then download and install MAMP and  the PHP Tsugi application and create its database use the default passwords for a dev
+environment.
+
+    http://www.tsugi.org/
+
+The default settings for this servlet expect that database to be up and 
+available (i.e. MAMP is running and MySQL is on port 8889)  You can connect this
+to a different database by editing:
 
     src/main/resources/application.properties
+
+But for the simple case - just install and get Tsugi running and then run this Java application.
 
 Quick Run
 ---------
