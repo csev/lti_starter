@@ -32,7 +32,6 @@ public class TsugiController extends BaseController {
 
     @RequestMapping({"", "/"})
     public String home(HttpServletRequest req, Principal principal, Model model) {
-System.out.println("YO");
         commonModelPopulate(req, principal, model);
         model.addAttribute("name", "lti1p");
         req.getSession().setAttribute("login", "oauth");
