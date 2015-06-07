@@ -1,5 +1,5 @@
-Tsugi for Java
-==============
+Tsugi for Java Persistence Architecture (JPA)
+=============================================
 
 This is a fork of azeckoski/lti\_starter as I intend to refactor this and align
 the library patterns with Tsugi's APIs.
